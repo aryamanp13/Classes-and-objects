@@ -19,3 +19,37 @@ Types:
 2. Inheritance: It allows a derived class to inherit properties and methods from another class. This promotes code reusability and establishes a hierarchy between classes.
 3. Polymorphism:It allows objects of different classes to be treated as objects of a common base class. The most common use of polymorphism is to call methods on objects of derived classes through base class pointers or references, enabling dynamic method binding.
 4. Abstraction: It focuses on hiding the complex implementation details and showing onlythe necessay featured of an object.
+
+## Algorithm: Cuboid Volume
+
+1.Start
+
+2.Define Cubiod Class
+
+Public Section
+
+Data Members
+int length, breadth, height, volume;
+
+Member Functions
+input() Function
+Prompt the user to enter the length, breadth, and height of the cuboid.
+Read the values and store them in t length, breadth, and height variables.
+Volume() Function
+
+3.Calculate the volume of the cuboid using the formula: volume = length * breadth * height.
+Output() Function
+
+Print : "The volume of the given Cuboid is : ".
+
+4.Main Function
+
+Create an object v1 of type Cubiod.
+
+Call the input() function for v1 to get the dimensions from the user.
+
+Call the Volume() function for v1 to calculate the volume.
+
+Call the Output() function forv1 to display the volume.
+
+5.End
